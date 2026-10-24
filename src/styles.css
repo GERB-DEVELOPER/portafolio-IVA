@@ -278,20 +278,9 @@ p {
     /* 8px de separación con el título */
 }
 
-/* Estilos SOLO de este componente.
-   Angular los encapsula: no afectan a otras páginas. */
 
-/* Fila de botones: uno al lado del otro, con espacio entre ellos */
-.btn-row {
-    display: flex;
-    /* los hijos se ponen en fila */
-    flex-wrap: wrap;
-    /* si no caben, bajan a otra línea */
-    gap: var(--space-4);
-    /* 16px entre cada botón */
-    margin-top: var(--space-6);
-    /* 32px de separación con el texto de arriba */
-}
+
+
 
 /* TARJETA: caja blanca con borde, esquinas redondeadas y sombra suave */
 .card {
@@ -319,6 +308,3 @@ p {
         scroll-behavior: auto !important;
     }
 }
-
-
-
