@@ -1,1 +1,13 @@
 /*estilos para componentes*/
+
+/* Separación entre la fila de botones y la tarjeta */
+.card {
+    margin-top: var(--space-7);
+    /* 48px */
+}
+
+/* Separación entre el título de la tarjeta y su texto */
+.card h3 {
+    margin-bottom: var(--space-2);
+    /* 8px */
+}
