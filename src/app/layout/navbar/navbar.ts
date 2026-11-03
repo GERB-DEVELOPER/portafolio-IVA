@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterLink,RouterLinkActive } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+import { PROFILE } from '../../data/portfolio.data';
+
 
 @Component({
   imports: [RouterLink,RouterLinkActive],
@@ -7,4 +9,7 @@ import { RouterLink,RouterLinkActive } from '@angular/router';
   styleUrl: './navbar.css',
   templateUrl: './navbar.html',
 })
-export class Navbar {}
+export class Navbar {
+    profile = PROFILE;
+
+}
